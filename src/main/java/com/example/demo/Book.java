@@ -51,7 +51,7 @@ public class Book {
     private String Description;
 
     public Book (){}
-
+    public Long getId(){return id;}
     public Integer getStock() {
         return Stock;
     }
